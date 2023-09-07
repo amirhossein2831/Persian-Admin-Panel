@@ -1,0 +1,37 @@
+.bg-back {
+    background-color: #000;
+}
+
+.bg-purple {
+    background-color: rgb(1, 1, 17);
+}
+
+
+.bg-dodgeblue {
+    background-color: rgb(22, 233, 215);
+}
+
+
+.bg-lightpurple{
+    background-color: rgb(0, 0, 24);
+}
+
+.bg-red{
+    background-color: rgb(214, 32, 32);
+}
+
+.bg-fff{
+    background-color:#fff;
+}
+
+.bg-green{
+    background-color: rgb(43, 201, 11);
+}
+
+.text-green{
+    color: rgb(43, 201, 11);
+}
+
+.text-orange{
+    color: rgb(245, 126, 16);
+}
