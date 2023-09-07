@@ -3,6 +3,11 @@
     direction: rtl;
 }
 
+.sidebar{
+    height: 100vh;
+    background:linear-gradient(rgb(1, 1, 17),rgb(0,0,0));
+    box-shadow: -5px 7px 40px rgb(75, 69, 69);
+}
 
 
 
@@ -29,4 +34,11 @@
 
 /* xl  */
 @media screen and (min-width: 1200px) {
+}
+
+
+/* Color  */
+
+.bg-back{
+    background-color: #000;
 }
