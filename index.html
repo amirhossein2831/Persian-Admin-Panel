@@ -33,105 +33,184 @@
     <div class="container-fluid">
         <div class="row">
 
-            <!-- Side Bar  -->
+            <!-- Side bar -->
             <section>
-                <div class="d-none d-lg-flex flex-column  col-lg-3 col-xl-2 fixed-top sidebar">
+                <!-- Side Bar large -->
+
+                <div class="d-none col-lg-3 col-xl-2 d-lg-flex flex-column fixed-top sidebar" id="">
                     <div class="text-center w-100 h-auto mt-3">
                         <h1 class="h3 text-white">ادمین پنل</h1>
                     </div>
                     <hr class="text-white w-75 mx-auto">
                     <div class="d-flex text-center">
-                        <img src="./resource/image/p1.jpg" alt="" class="admin-image mx-3" style="height: 75px;width: 75px;">
-                        <a class="align-self-center text-info  fw-bold h5 text-decoration-none " href="#">امیر حسین متقیان</a>
+                        <img src="./resource/image/p1.jpg" alt="" class="admin-image mx-3"
+                            style="height: 75px;width: 75px;">
+                        <a class="align-self-center text-info  fw-bold h5 text-decoration-none " href="#">امیر حسین
+                            متقیان</a>
                     </div>
                     <hr class="text-white w-75 mx-auto">
-                        <ul class="nav-bar list-unstyled d-flex flex-column px-2  mt-1 ">
-                            <li class="nav-item text-white h4 li-item" ><a href="" class="nav-link p-4 li-link current">
+                    <ul class="nav-bar list-unstyled d-flex flex-column px-2  mt-1 ">
+                        <li class="nav-item text-white h4 li-item"><a href="" class="nav-link p-4 li-link current">
                                 <i class="fas fa-home ms-3"></i>
                                 داشبورد
                             </a></li>
-                            <li class="nav-item text-white h4 li-item" ><a href="" class="nav-link p-4 li-link">
+                        <li class="nav-item text-white h4 li-item"><a href="" class="nav-link p-4 li-link">
                                 <i class="fas fa-user ms-3"></i>
                                 پروفایل
                             </a></li>
-                            <li class="nav-item text-white h4 li-item" ><a href="" class="nav-link p-4 li-link">
+                        <li class="nav-item text-white h4 li-item"><a href="" class="nav-link p-4 li-link">
                                 <i class="fas fa-envelope ms-3"></i>
                                 پیام ها
                             </a></li>
-                            <li class="nav-item text-white h4 li-item" ><a href="" class="nav-link p-4 li-link">
+                        <li class="nav-item text-white h4 li-item"><a href="" class="nav-link p-4 li-link">
                                 <i class="fas fa-shopping-cart ms-3"></i>
                                 فروش
                             </a></li>
-                            <li class="nav-item text-white h4 li-item" ><a href="" class="nav-link p-4 li-link">
+                        <li class="nav-item text-white h4 li-item"><a href="" class="nav-link p-4 li-link">
                                 <i class="fas fa-chart-line ms-3"></i>
                                 تحلیل
                             </a></li>
-                            <li class="nav-item text-white h4 li-item" ><a href="" class="nav-link p-4 li-link">
+                        <li class="nav-item text-white h4 li-item"><a href="" class="nav-link p-4 li-link">
                                 <i class="fas fa-chart-bar ms-3"></i>
                                 نمدار ها
                             </a></li>
-                            <li class="nav-item text-white h4 li-item" ><a href="" class="nav-link p-4 li-link">
+                        <li class="nav-item text-white h4 li-item"><a href="" class="nav-link p-4 li-link">
                                 <i class="fas fa-table ms-3"></i>
-                            جدول ها
+                                جدول ها
                             </a></li>
-                            <li class="nav-item text-white h4 li-item" ><a href="" class="nav-link p-4 li-link">
+                        <li class="nav-item text-white h4 li-item"><a href="" class="nav-link p-4 li-link">
                                 <i class="fas fa-wrench ms-3"></i>
-                            تنظیمات
+                                تنظیمات
                             </a></li>
-                          </ul>
+                    </ul>
                 </div>
-             
+                <!-- End of Side Bar large  -->
+
+                <!-- Side bar for smaller than lg  -->
+                <div class="offcanvas offcanvas-end bg-black" tabindex="-1" id="offcanvasRight">
+
+                    <div class="offcanvas-body">
+                        <div><button type="button" class="btn-close bg-white" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="text-center w-100 h-auto mt-3">
+                            <h1 class="h3 text-white">ادمین پنل</h1>
+
+                        </div>
+                        <hr class="text-white w-75 mx-auto">
+                        <div class="d-flex text-center">
+                            <img src="./resource/image/p1.jpg" alt="" class="admin-image mx-3"
+                                style="height: 75px;width: 75px;">
+                            <a class="align-self-center text-info  fw-bold h5 text-decoration-none " href="#">امیر حسین
+                                متقیان</a>
+                        </div>
+                        <hr class="text-white w-75 mx-auto">
+                        <ul class="nav-bar list-unstyled d-flex flex-column px-2  mt-1 ">
+                            <li class="nav-item text-white h4 li-item"><a href="" class="nav-link p-4 li-link current">
+                                    <i class="fas fa-home ms-3"></i>
+                                    داشبورد
+                                </a></li>
+                            <li class="nav-item text-white h4 li-item"><a href="" class="nav-link p-4 li-link">
+                                    <i class="fas fa-user ms-3"></i>
+                                    پروفایل
+                                </a></li>
+                            <li class="nav-item text-white h4 li-item"><a href="" class="nav-link p-4 li-link">
+                                    <i class="fas fa-envelope ms-3"></i>
+                                    پیام ها
+                                </a></li>
+                            <li class="nav-item text-white h4 li-item"><a href="" class="nav-link p-4 li-link">
+                                    <i class="fas fa-shopping-cart ms-3"></i>
+                                    فروش
+                                </a></li>
+                            <li class="nav-item text-white h4 li-item"><a href="" class="nav-link p-4 li-link">
+                                    <i class="fas fa-chart-line ms-3"></i>
+                                    تحلیل
+                                </a></li>
+                            <li class="nav-item text-white h4 li-item"><a href="" class="nav-link p-4 li-link">
+                                    <i class="fas fa-chart-bar ms-3"></i>
+                                    نمدار ها
+                                </a></li>
+                            <li class="nav-item text-white h4 li-item"><a href="" class="nav-link p-4 li-link">
+                                    <i class="fas fa-table ms-3"></i>
+                                    جدول ها
+                                </a></li>
+                            <li class="nav-item text-white h4 li-item"><a href="" class="nav-link p-4 li-link">
+                                    <i class="fas fa-wrench ms-3"></i>
+                                    تنظیمات
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--End of Side bar for smaller than lg  -->
+
             </section>
-            <!-- End of Side Bar  -->
-            
-            <!-- Nav Bar  -->
-            <header>
-                <div class="col-lg-9 col-xl-10 fixed-top me-auto bg-danger bg-black">
+            <!-- End of Side bar -->
+
+            <div class="col-lg-9 col-xl-10 fixed-top me-auto bg-black ">
+
+                <!-- Nav Bar  -->
+                <header>
                     <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
-                        <a class="navbar-brand" href="#">داشبورد</a>
+
+                        <!-- nav-bar buttons  -->
+                        <a class="d-none d-lg-flex text-info navbar-brand" href="#">داشبورد</a>
+                        <a class="d-lg-none text-decoration-none text-info h5" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasRight">داشبورد</a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#list">
                             <span class="h5 text-white">&#9776;</span>
                         </button>
                         <div class="collapse navbar-collapse" id="list">
-                            <ul class="navbar-nav nav-underline  me-auto mb-2 mb-lg-0">
+                            
+                            <!-- search input  -->
+                            <form class="d-flex mx-auto my-3 my-lg-0 nav-form" role="search">
+                                <button class="btn btn-outline-info me-3" type="submit">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                                <input class="search-input" type="search" placeholder="جستجو ..." aria-label="Search">
+                            </form>
+
+                            <!-- nav-bar tab  -->
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex flex-row justify-content-around ">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Link</a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                        aria-expanded="false">
-                                        Dropdown
+                                    <a class="nav-link transition" aria-current="page" href="#">
+                                        <i class="fas fa-user text-white h4 ms-2 pt-1"></i>
                                     </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li>
-                                            <hr class="dropdown-divider">
-                                        </li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                    </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                                    <a class="nav-link transition" aria-current="page" href="#">
+                                        <i class="fas fa-comments text-white h4 ms-2 pt-1"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link transition" href="#">
+                                        <i class="fas fa-bell text-white h4 ms-4 pt-1"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link transition" href="#">
+                                        <i class="fas fa-sign-out-alt text-danger h4 pt-1"></i>
+                                    </a>
                                 </li>
                             </ul>
-                            <form class="d-flex" role="search">
-                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                                <button class="btn btn-outline-success" type="submit">Search</button>
-                            </form>
                         </div>
                     </nav>
-                </div>
-            </header>
-            <!-- End of Nav Bar  -->
+                </header>
+                <!-- End of Nav Bar  -->
 
+                <!-- Page content  -->
+                <main>
+
+                </main>
+                <!-- End of Page content  -->
+
+                <!-- Footer  -->
+                <footer>
+
+                </footer>
+                <!-- End of Footer  -->
+            </div>
         </div>
-
     </div>
-    </nav>
 
     <!-- Bootstrap script  -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
