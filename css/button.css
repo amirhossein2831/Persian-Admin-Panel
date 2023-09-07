@@ -3,6 +3,8 @@
     border: 1px solid gray;
     border-radius: 5px;
 }
-.navbar-toggler:hover{
+
+.navbar-toggler:hover,
+.navbar-toggler:focus{
 font-style: italic;
 }
