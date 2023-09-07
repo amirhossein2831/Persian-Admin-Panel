@@ -17,19 +17,15 @@ this a Admin pannel that is powered by Bootsrap and it is totally responsive
 
 **Large Size:**
 
-<video controls>
-    <source src="./resource/readmeViedo/larg.webm" type="video/webm">
-    Your browser does not support the video tag.
-</video>
+[![Video Thumbnail](./resource/reamdeImage/l1.png)](/resource/readmeViedo/larg.webm)
+
 
 **Small Size:**
 
 ## Large
 
-<video controls>
-    <source src="./resource/readmeViedo/small.webm" type="video/webm">
-    Your browser does not support the video tag.
-</video>
+[![Video Thumbnail](./resource/reamdeImage/s1.png)](/resource/readmeViedo/small.webm)
+
 
 
 <table>
