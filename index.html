@@ -24,19 +24,16 @@
     <!-- Css file  -->
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/button.css">
-
-
 </head>
 
 <body>
-
     <div class="container-fluid">
         <div class="row">
 
             <!-- Side bar -->
             <section>
-                <!-- Side Bar large -->
 
+                <!-- Side Bar large -->
                 <div class="d-none col-lg-3 col-xl-2 d-lg-flex flex-column fixed-top sidebar" id="">
                     <div class="text-center w-100 h-auto mt-3">
                         <h1 class="h3 text-white">ادمین پنل</h1>
@@ -160,7 +157,7 @@
                             <span class="h5 text-white">&#9776;</span>
                         </button>
                         <div class="collapse navbar-collapse" id="list">
-                            
+
                             <!-- search input  -->
                             <form class="d-flex mx-auto my-3 my-lg-0 nav-form" role="search">
                                 <button class="btn btn-outline-info me-3" type="submit">
@@ -187,10 +184,12 @@
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link transition" href="#">
+                                    <a class="nav-link transition" role="button" data-bs-toggle="modal"
+                                        data-bs-target="#logout" href="#">
                                         <i class="fas fa-sign-out-alt text-danger h4 pt-1"></i>
                                     </a>
                                 </li>
+
                             </ul>
                         </div>
                     </nav>
@@ -199,7 +198,6 @@
 
                 <!-- Page content  -->
                 <main>
-
                 </main>
                 <!-- End of Page content  -->
 
@@ -212,6 +210,30 @@
         </div>
     </div>
 
+    <!-- Modal -->
+       <div class="modal fade" id="logout">
+        <div class="modal-dialog ">
+            <div class="modal-content bg-purple text-white">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5 w-100" id="exampleModalLabel">آیا میخواهید خارج شوید؟</h1>
+                    <button type="button" class="btn-close bg-white me-auto" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    هر وقت که خواستید میتوانید دوباره وارد شوید!!
+                    هر وقت که خواستید میتوانید دوباره وارد شوید!!
+                    هر وقت که خواستید میتوانید دوباره وارد شوید!!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-danger">بله خارج می شوم</button>
+                    <button type="button" class="btn btn-outline-primary"
+                        data-bs-dismiss="modal">خیر</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Modal -->
+    
     <!-- Bootstrap script  -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
