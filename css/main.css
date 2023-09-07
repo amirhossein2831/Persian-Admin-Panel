@@ -6,7 +6,6 @@
 .sidebar {
     height: 100vh;
     background: linear-gradient(rgb(1, 1, 17), rgb(0, 0, 0));
-    box-shadow: -5px 7px 40px rgb(75, 69, 69);
 }
 
 .admin-image {
@@ -36,5 +35,11 @@
     transition: all .2s;
 }
 
-/* Media Query  */
+.task{
+    border-right: 5px solid brown;
+    background-color: rgb(206, 206, 206);
+}
 
+.tooltip{
+    background-color: white;
+}
