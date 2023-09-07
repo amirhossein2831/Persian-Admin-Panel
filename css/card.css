@@ -1,0 +1,37 @@
+.sell-card{
+    box-shadow: 0 0 30px rgb(33, 121, 33);
+}
+
+.sell-card:hover{
+    background-color: rgb(39, 158, 15);  
+}
+
+.cost-card{
+    box-shadow: 0 0 30px rgb(231, 26, 26);
+}
+
+.cost-card:hover{
+    background-color:rgb(172, 7, 7);
+}
+
+.user-card{
+    box-shadow: 0 0 30px rgba(197, 226, 197,0.7);
+}
+
+.user-card:hover{
+    background-color:rgb(233, 220, 220);
+}
+
+.chart-card{
+    box-shadow: 0 0 30px rgba(52, 231, 255, 0.7);
+}
+
+.chart-card:hover{
+    background-color:rgb(32, 223, 197);
+}
+
+.card-item:hover{
+    transform: scale(1.03);
+    transition: all 0.7s;
+    cursor: pointer;
+}
