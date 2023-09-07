@@ -13,20 +13,6 @@ this a Admin pannel that is powered by Bootsrap and it is totally responsive
 - Tables
 - Footer
 
-## Project Video
-
-**Large Size:**
-
-[![Video Thumbnail](./resource/reamdeImage/l1.png)](/resource/readmeViedo/larg.webm)
-
-
-**Small Size:**
-
-## Large
-
-[![Video Thumbnail](./resource/reamdeImage/s1.png)](/resource/readmeViedo/small.webm)
-
-
 
 <table>
 <tr>
