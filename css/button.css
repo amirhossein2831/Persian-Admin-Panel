@@ -8,3 +8,24 @@
 .navbar-toggler:focus{
 font-style: italic;
 }
+
+.li-item {
+    width: 97%;
+}
+
+.li-link {
+    transition: all 0.5s;
+}
+
+.li-link:hover {
+    color: darkturquoise;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+}
+
+.current {
+    color: darkturquoise;
+    font-weight: 900;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
