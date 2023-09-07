@@ -48,3 +48,6 @@
     width: 10%;
     height: 10%;
 }
+textarea{
+    resize: none;
+}
